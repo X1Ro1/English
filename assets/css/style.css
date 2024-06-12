@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "SuisseIntl-Black-Regular";
+    src: url(../fonts/SuisseIntl-Regular.otf);
+}
+@font-face {
+    font-family: "SuisseIntl-Black-Medium";
+    src: url(../fonts/SuisseIntl-Medium.otf);
+}
+
+body {
+    font-family: "SuisseIntl-Black-Regular";
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+}
+.main-container h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.aside-img {
+    width: 70%;
+}
+.header {
+    height: 100vh;
+}
+
+.header-fefu img{
+    width: 140px;
+    margin: 10px;
+}
+.header-txt h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.header-html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.header-img img{
+    width: 200px;
+}
+
+.p-txt {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.blue-cl {
+    color: #2B59A1;
+}
+
+.orange-cl {
+    color: #FF6D00;
+}
+
+.orange {
+    background: #FF6D00;
+}
+
+.blue {
+    background: #2B59A1;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #202020;
+    color: white;
+}
+
+.footer h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.btn-html {
+    background: #FF6D00;
+    padding: 10px 50px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-html:hover {
+    color: white;
+    transition: 0.2s;
+    background: #ff9500;
+}
+
+.btn-css {
+    background: #2B59A1;
+    padding: 10px 50px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-css:hover {
+    color: white;
+    background: #0762f5;
+    transition: 0.2s;
+}
+.lead {
+    font-weight: 100 !important;
+    color: silver;
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+}
+.aside-img1 {
+    width: 90%;
+}
+._hidden {
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	transform: translate(-130%, 0px);
+	-webkit-transform: translate(-130%, 0px);
+	-ms-transform: translate(-130%, 0px);
+	opacity: 0;
+}
+._show {
+	transform: translate(0px, 0px);
+	-webkit-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	opacity: 1;
+}
