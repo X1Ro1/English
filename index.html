@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 & CSS guide</title>
+    <link href="assets/css/bootstrap5.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="h-100">
+    <div class="h-100">
+        <div class="h-100">
+
+            <div class="header">
+               
+                <div class="header-fefu">
+                    <img src="assets/img/dvfu.png" alt="">
+                </div>
+
+                <div class="header-html">
+                    <div class="header-img">
+                        <img src="assets/img/html.svg" alt="">
+                        <img src="assets/img/css.svg" alt="">
+                    </div>
+                    <div class="header-txt">
+                        <h1>HTML & CSS guide</h1>
+                    </div><br>
+                    <div class="header-btn">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="btn-html">HTML</a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="btn-css">CSS</a>
+                    </div>
+                </div>
+                  
+            </div>
+
+            <div class="flex-shrink-0 main-body">
+                <section class="orange">
+
+                    <div class="main">
+                        <div class="main-container">
+                            <h2>What does the website consist of?</h2>
+                            <hr>
+                            <div class="row pt-2">
+                                <div class="col-6">
+                                    <p class="p-txt _hidden">From the user's point of view, a website is a structure consisting of many blocks. Each of them stores different content on the site. The <b class="blue-cl">html</b> layout language is responsible for creating this structure. <br>The external representation of the site is developed using special <b class="blue-cl">css</b> style sheets, which together with html, create a beautiful appearance</p>
+                                </div>
+                                <div class="col-6" align="center">
+                                    <img class="aside-img" src="https://i.pinimg.com/originals/72/88/b5/7288b5c821d3c1064643c23de28653ee.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                
+                <section class="blue">
+
+                    <div class="main">
+                        <div class="main-container">
+                            <h2>What is HTML?</h2>
+                            <hr>
+                            <p class="p-txt _hidden"><b class="orange-cl">HTML (HyperText Markup Language)</b> is the standard markup language for creating documents designed to be displayed in a web browser. It is used to create and structure web pages and their content. HTML describes the structure of a web page using elements represented by tags. Tags can contain text, images, links, tables, lists, and other elements.
+                            </p>
+                            <div class="row">
+                                <div class="col-6 _hidden">
+                                    <p class="p-txt">The main elements of HTML include:</p>
+                                    <p class="p-txt">1. &lt;!DOCTYPE html&gt; — document declaration indicating the HTML version.</p>
+                                    <p class="p-txt">2. &lt;html&gt; — the root element that encompasses the entire document.</p>
+                                    <p class="p-txt">3. &lt;head&gt; — contains metadata about the document, such as the title, links to stylesheets, and meta tags.</p>
+                                    <p class="p-txt">4. &lt;title&gt; — sets the title of the web page, displayed in the browser's title bar.</p>
+                                    <p class="p-txt">5. &lt;body&gt; — contains the content of the web page that is displayed in the browser.</p>
+                                    <p class="p-txt">6. &lt;h1&gt; - &lt;h6&gt; — headers of different levels, from the largest (&lt;h1&gt;) to the smallest (&lt;h6&gt;).</p>
+                                    <p  class="p-txt">7. &lt;p&gt; — a paragraph of text.</p>
+                                    <p class="p-txt">8. &lt;a&gt; — a hyperlink.</p>
+                                    <p class="p-txt">9. &lt;img&gt; — an image.</p>
+                                    <p class="p-txt">10. &lt;div&gt; and &lt;span&gt; — elements for grouping and styling content.</p>
+                                </div>
+                                <div class="col-6" align="center">
+                                    <img class="aside-img" src="assets/img/htmlex1.png" alt="">
+                                    <p class="lead">The structure of a simple <br>browser page in html</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="orange">
+                    <div class="main">
+                        <div class="main-container">
+                            <h2>Block structure of the site</h2>
+                            <hr>
+                            <p class="p-txt _hidden">To create a clean and organized website layout, you often use a block structure. This involves dividing your web page into distinct sections or "blocks," each serving a specific purpose (e.g., header, navigation, main content, sidebar, footer):</p>
+                            <div class="row">
+                                <div class="col-8 _hidden">
+                                    <img class="aside-img1" src="assets/img/htmlex2.png" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <p class="p-txt">In the example shown, we see that the block structure in most cases is organized in three parts (header, main, footer). <br> 1) In the header of the site, the user can specify the name of the site/section and site navigation. <br> 2) In the main block, we can describe all the necessary content of the web page.<br> 3) And the footer block serves as the site's business card. It usually contains contacts and copyright.</p>
+                                </div>
+                            </div>
+                            <p class="p-txt pt-3 _hidden" style="text-align: center;"><b class="blue-cl">Creating a clear layout</b><i> — is the key to creating a high-quality website!</i></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="blue">
+                    <div class="main">
+                        <div class="main-container">
+                            <h2>How is website design built?</h2>
+                            <hr>
+                            <p class="p-txt">Creating a website design involves using CSS (Cascading Style Sheets) to style and lay out web pages. CSS works alongside HTML to define how elements should be displayed, including their colors, sizes, positions, and overall visual appearance. Here's a brief guide on building a website design with CSS:</p>
+                            <img src="assets/img/code2.png" alt="">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="orange">
+                    <div class="main">
+                        <div class="main-container">
+                            <h2>Building a website design with CSS</h2>
+                            <hr>
+                            <img src="assets/img/CSS_guide.png" alt="">
+                            <p class="p-txt pt-4 blue-cl"><b><i>Let's add a new style to our content block.</i></b></p>
+                            <p class="p-txt _hidden">1) To do this, we will connect the style.css file in advance, create a &lt;link&gt; tag where the "href" attribute will be the path to our html file.</p>
+                            <p class="p-txt _hidden">2) Also give a class to the &lt;div&gt; element, for example class="new_block"</p>
+                            <p class="p-txt _hidden">3) In the style.css file, we will write the following styles, where the class name is indicated after the dot, and in curly brackets the styles we need: <i>background (color), font size (in pixels), font family, color (text color)</i></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="blue">
+                    <div class="main">
+                        <div class="main-container">
+                            <h2>In conclusion</h2>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="p-txt _hidden">Creating markup and design for a website is an exciting activity. However, in order to learn how to create professional websites, you need to have considerable knowledge and experience in development. In css alone, there are <b>more than 500 properties</b> that can affect elements inside a document in different ways. 
+                                        <br><i class="orange-cl">I believe that mastering this tool is an art that can bring a lot of money!</i></p>
+                                </div>
+                                <div class="col-6">
+                                    <img src="assets/img/1.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="mt-auto footer">
+                <h3>Egorov Artem & Privalov Maxim</h3>
+                <p>The site was made specifically for Baibak Irina Konstantinovna</p>
+                <p>@2024-2025</p>
+            </div>
+
+        </div>
+    </div>
+</body>
